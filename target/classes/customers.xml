@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<customers>
+    <customer id = "123">
+        <firstName>Mohamed</firstName>
+        <lastName>Nagy</lastName>
+        <email>mohamed_nagy02@hotmail.com</email>
+        <Addresses>
+            <address>
+                <type>Home</type>
+                <street>nasr street</street>
+                <city>cairo</city>
+                <state>cairo</state>
+                <zip>5555</zip>
+            </address>
+        </Addresses>
+    </customer>
+
+    <customer id = "124">
+        <firstName>Hassan</firstName>
+        <lastName>Amin</lastName>
+        <email>hassan.amin@hotmail.com</email>
+        <Addresses>
+            <address>
+                <type>Home</type>
+                <street>giza</street>
+                <city>giza</city>
+                <state>giza</state>
+                <zip>6666</zip>
+            </address>
+        </Addresses>
+    </customer>
+</customers>
