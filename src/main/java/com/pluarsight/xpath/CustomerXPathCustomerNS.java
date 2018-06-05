@@ -70,6 +70,7 @@ public class CustomerXPathCustomerNS {
 
 			// 2. Document Builder Factory
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			factory.setNamespaceAware(true);
 
 			// 3. Document Builder
 			DocumentBuilder builder = factory.newDocumentBuilder();
